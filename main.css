@@ -260,3 +260,51 @@ button {
     margin: 2rem 0;
   }
 }
+
+@media screen and (max-width: 968px) {
+  .intro {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .intro-text {
+    margin: 1rem 0;
+    text-align: center;
+  }
+
+  .intro-social {
+    padding: 2rem 0;
+  }
+
+  .blog-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .blog-img {
+    width: 100%;
+  }
+
+  .blog-content-container {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .about-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  .contact__section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact__left {
+    margin: 2rem 0;
+  }
+}
